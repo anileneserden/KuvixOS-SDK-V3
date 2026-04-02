@@ -1,0 +1,10 @@
+# Build outputs
+build/
+*.o
+*.obj
+*.exe
+*.kef
+
+# IDE files
+.vscode/
+.idea/

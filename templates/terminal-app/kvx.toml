@@ -1,0 +1,6 @@
+[project]
+name = "demo"
+type = "terminal"
+language = "cpp"
+author = "Anıl"
+description = "First terminal application example using C++"

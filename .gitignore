@@ -5,6 +5,9 @@ build/
 *.exe
 *.kef
 
+# temp files
+*.txt
+
 # IDE files
 .vscode/
 .idea/

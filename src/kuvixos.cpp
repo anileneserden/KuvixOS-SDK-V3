@@ -1,9 +1,9 @@
-#include "kuvixos.hpp"
+#include <iostream>
 
-// Altta kernel fonksiyonunu çağırıyoruz
-extern "C" void commands_puts(const char* c);
-// veya extern "C" void printk(const char* c);
+extern "C" void printk(const char* c) {
+    std::cout << c << std::endl;
+}
 
 void print(const char* c) {
-    commands_puts(c); // veya printk(c);
+    printk(c);
 }

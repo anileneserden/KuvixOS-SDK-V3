@@ -8,6 +8,9 @@ build/
 # temp files
 *.txt
 
+# test projects dir
+projects/
+
 # IDE files
 .vscode/
 .idea/
